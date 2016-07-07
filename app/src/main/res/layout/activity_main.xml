@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="mark.passwordinput.MainActivity">
+
+    <com.jungly.gridpasswordview.GridPasswordView
+        android:id="@+id/gridPasswordView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        app:gpvLineColor="#2196F3"
+        app:gpvLineWidth="2dp"
+        app:gpvPasswordLength="4"
+        app:gpvTextColor="#2196F3"
+        app:gpvTextSize="25sp" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">Mark</string>
+    <string name="mark" translatable="false">大爷，下次再来啊</string>
+    <string name="loading" translatable="false">ILoveYouBaby</string>
+    <string name="toastString">大爷，别走啊</string>
+</resources>
